@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Is there time?</title>
+</head>
+<body>
+  <h1>The current time is: <%= Time.now %></h1>
+  
+  <ul>
+    <li><%= 5 + 10 %></li>
+    <li><%= "drop it".upcase %></li>
+    <li><%= ["h","e","y"].join %></li>
+  </ul>
+
+  <ul>
+    <% ["Kim", "Nhu", "Pham"].each do |name| %>
+      <li><%= name %></li>
+    <% end %>
+  </ul>
+
+</body>
+</html>
